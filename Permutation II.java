@@ -1,0 +1,1 @@
+public class Solution { public List<List<Integer>> permuteUnique(int[] nums) { List<List<Integer>> res = new ArrayList<List<Integer>>(); if(nums==null || nums.length==0) return res; boolean[] used = new boolean[nums.length]; List<Integer> list = new ArrayList
